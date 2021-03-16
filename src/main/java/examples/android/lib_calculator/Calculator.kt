@@ -1,7 +1,9 @@
 package examples.android.lib_calculator
 
 object Calculator {
+
     private val operations = arrayOf('+', '-', '/', '*')
+
     fun calculate(text: String): String {
         return operations
             .find { text.contains(it) }
