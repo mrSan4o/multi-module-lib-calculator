@@ -2,7 +2,12 @@ package examples.android.lib_calculator
 
 object Calculator {
 
-    private val operations = arrayOf('+', '-', '/', '*')
+    private val operations = arrayOf(
+        '+',
+        '-',
+        '/',
+        '*'
+    )
 
     fun calculate(text: String): String {
         return operations
