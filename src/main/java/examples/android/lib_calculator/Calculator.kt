@@ -31,6 +31,7 @@ object Calculator {
         i2: Int,
         operator: Char
     ): Int {
+
         println("CalculateNumbers $i1 $operator $i2...")
         return when (operator) {
             '+' -> i1 + i2
