@@ -10,6 +10,7 @@ object Calculator {
     )
 
     fun calculate(text: String): String {
+        println("calculate $text")
         return operations
             .find { text.contains(it) }
             ?.let {
