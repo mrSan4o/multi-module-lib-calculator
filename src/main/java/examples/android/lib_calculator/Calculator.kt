@@ -28,6 +28,7 @@ object Calculator {
         i2: Int,
         operator: Char
     ): Int {
+        println("calculate $i1 $operator $i2...")
         return when (operator) {
             '+' -> i1 + i2
             '-' -> i1 - i2
