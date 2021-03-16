@@ -23,7 +23,11 @@ object Calculator {
             ?: ""
     }
 
-    private fun calculateNumbers(i1: Int, i2: Int, operator: Char): Int {
+    private fun calculateNumbers(
+        i1: Int,
+        i2: Int,
+        operator: Char
+    ): Int {
         return when (operator) {
             '+' -> i1 + i2
             '-' -> i1 - i2
